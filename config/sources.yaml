@@ -1,0 +1,36 @@
+sources:
+  - name: "Pokémon GO Official News (EN)"
+    url: "https://pokemongo.com/news"
+    type: "html"
+    selector: "main a[href^='/news/']"
+    category_keywords:
+      event: "EVENTO"
+      raid: "RAID"
+      community day: "COMMUNITY_DAY"
+      shiny: "SHINY"
+      research: "INVESTIGACION"
+      pvp: "PVP"
+      announcement: "ANUNCIO_OFICIAL"
+      infographic: "INFOGRAFIA"
+
+  - name: "Pokémon GO Official News (ES)"
+    url: "https://pokemongo.com/es/news"
+    type: "html"
+    selector: "main a[href^='/es/news/']"
+    category_keywords:
+      evento: "EVENTO"
+      raid: "RAID"
+      "día de la comunidad": "COMMUNITY_DAY"
+      shiny: "SHINY"
+      investigación: "INVESTIGACION"
+      pvp: "PVP"
+      anuncio: "ANUNCIO_OFICIAL"
+      infografía: "INFOGRAFIA"
+
+  - name: "Pokémon GO Hub"
+    url: "https://pokemongohub.net/rss"
+    type: "rss"
+    category_keywords:
+      raid: "RAID"
+      shiny: "SHINY"
+      event: "EVENTO"
